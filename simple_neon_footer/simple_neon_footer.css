@@ -1,0 +1,27 @@
+#footer {
+    background-color: #131313;
+    color: #fff; /* magenta */
+    padding: 3rem;
+    text-align: center;
+    text-shadow: 0 0 5px #fff;
+}
+
+.footerLink {
+    background-color: #131313;
+    color: #fff; /* magenta */
+    padding: 2rem;
+    text-align: center;
+    text-shadow: 0 0 5px #fff;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-shadow: 0px 0px 10px #fff;
+}
