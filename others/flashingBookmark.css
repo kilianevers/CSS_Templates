@@ -1,4 +1,5 @@
-.flashingBookmark {
+.flashingBookmark
+{
     width: 50px;
     height: 100px;
     background-color: #ffa500;
@@ -7,8 +8,8 @@
     animation: flicker 1s ease-in-out infinite alternate;
     text-align: center;
 }
-
-@keyframes flicker {
+@keyframes flicker
+{
     0% {
         transform: scale(1);
         box-shadow: 0 0 10px #ffa500;
@@ -22,10 +23,9 @@
         box-shadow: 0 0 10px #ffa500;
     }
 }
-
-body {
-        /* imports 'Open Sans', sans-serfi from https://fonts.google.com*/
-
-        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-        font-family: 'Open Sans', sans-serif;
+/* imports 'Open Sans', sans-serfi from https://fonts.google.com*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+body
+{
+font-family: 'Open Sans', sans-serif;
 }
