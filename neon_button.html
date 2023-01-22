@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /* Define the styling for the button */
+      .neon-button {
+        background-color: #ff00ff; /* magenta */
+        color: white;
+        padding: 10px 20px;
+        border-radius: 10px;
+        font-size: 20px;
+        text-align: center;
+        text-decoration: none;
+        animation: neon 1s ease-in-out infinite;
+      }
+      
+      /* Define the animation */
+      @keyframes neon {
+        0% {
+          box-shadow: 0 0 10px #ff00ff;
+        }
+        50% {
+          box-shadow: 0 0 20px #ff00ff;
+        }
+        100% {
+          box-shadow: 0 0 10px #ff00ff;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <a href="#" class="neon-button">Neon Button</a>
+  </body>
+</html>
