@@ -1,5 +1,4 @@
-.notFound 
-{
+.forbidden {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -13,7 +12,7 @@
 
 .neon-button a
 {
-  background-color: #255fff;
+  background-color: #ff7777;
   padding: 1ex;
   border-radius: 5px;
 
@@ -29,13 +28,13 @@
 @keyframes neonButton 
 {
   0% {
-    box-shadow: 0 0 10px #255fff;
+    box-shadow: 0 0 10px #ff7777;
   }
   50% {
-    box-shadow: 0 0 20px #255fff;
+    box-shadow: 0 0 20px #ff7777;
   }
   100% {
-    box-shadow: 0 0 10px #255fff;
+    box-shadow: 0 0 10px #ff7777;
   }
 }
 
@@ -43,6 +42,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 body
 {
-    background-color: #5871e4;
+    background-color: #777777;
     font-family: 'Open Sans', sans-serif;
+    -moz-user-select: none; 
+    -khtml-user-select: none; 
+    user-select: none; 
 }
