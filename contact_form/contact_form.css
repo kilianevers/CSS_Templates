@@ -1,0 +1,58 @@
+#contact-form {
+    background-color: #777777;
+    color: #ffffff;
+    width: 550px;
+    height: 550px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #777777;
+    text-shadow: 0 0 5px #777777;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+  
+#contact-form input[type="text"], #contact-form input[type="email"], #contact-form textarea, #contact-form label{
+    margin-bottom:10px;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    width: 300px;
+    height: 35px;
+    padding: 10px;
+}
+
+  #contact-form input[type="submit"] {
+    background-color: #77ff99;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px #77ff99;
+    text-shadow: 0 0 2px #77ff99;
+    transition: background-color 0.5s ease;
+}
+  
+#contact-form input[type="submit"]:hover {
+    background-color: transparent;
+    box-shadow: none;
+    text-shadow: none;
+    color: #000000;
+    cursor:pointer;
+}
+
+label 
+{
+    font-weight: bold;
+}
+
+  /* imports 'Open Sans', sans-serfi from https://fonts.google.com*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+body
+{
+    background-color: #cacaca;
+    font-family: 'Open Sans', sans-serif;
+    -moz-user-select: none; 
+    -khtml-user-select: none; 
+    user-select: none; 
+}
