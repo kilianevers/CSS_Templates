@@ -1,15 +1,20 @@
 #footer 
 {
-    background-color: #131313;
-    color: #fff; /* magenta */
-    padding: 3rem;
+    background-color: #777777;
+    color: #fff;
+    padding-top: 10px;
+    padding: auto;
     text-align: center;
     text-shadow: 0 0 5px #fff;
+    outline: solid;
+    outline-color: #777777;
+    outline-width: 0.5em;
 }
+
 .footerLink 
 {
-    background-color: #131313;
-    color: #fff; /* magenta */
+    background-color: #777777;
+    color: #fff;
     padding: 2rem;
     text-align: center;
     text-shadow: 0 0 5px #fff;
@@ -17,14 +22,16 @@
     display: flex;
     justify-content: space-around;
 }
+
 a
 {
     color: #fff;
     text-decoration: none;
 }
+
 a:hover 
 {
-    text-shadow: 0px 0px 10px #fff;
+    text-shadow: 0 0 10px #fff;
 }
 /* imports 'Open Sans', sans-serfi from https://fonts.google.com*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');   
