@@ -1,4 +1,4 @@
-Participate regulations 
+#Participate regulations 
 
 1) You are not allowed to acknowledge the author's content as your work without explicit permission.
 
