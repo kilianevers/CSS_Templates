@@ -1,11 +1,13 @@
-.dropdown {
+.dropdown 
+{
     position: relative;
     display: inline-block;
     background-color: #ff00ff;
     border-radius: 30px;
 }
   
-.dropdown-button {
+.dropdown-button 
+{
     padding: 10px 20px;
     background-color: #ff00ff;
     border: 2px solid #ff00ff;
@@ -16,14 +18,9 @@
     transition: all 0.3s ease-in-out;
     border-radius: 30px;
 }
-  
-.dropdown-button:hover {
-    background-color: #fff;
-    color: #000;
-    cursor: pointer;
-}
 
-.dropdown-content {
+.dropdown-content 
+{
     display: none;
     position: absolute;
     background-color: #fff;
@@ -33,30 +30,36 @@
     border-radius: 30px;
 }
 
-.dropdown-content a {
-    color: #ff00ff;
+.dropdown-content a 
+{
+    color: #000;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
 }
 
-.dropdown-content a:hover {
-    background-color: transparent;
-    text-shadow: 0 0 10px #ff00ff;
-    border-radius: 30px;
-}
-
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content
+{
     display: block;
 }
 
-.dropdown-button:hover {
+.dropdown-button:hover 
+{
     background-color: #fff;
     color: #000;
     cursor: pointer;
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00ff, 0 0 70px #ff00ff, 0 0 80px #ff00ff, 0 0 100px #ff00ff, 0 0 150px #ff00ff;
-    box-shadow: 0 0 20px 2px #ff00ff;
+    text-shadow: 
+        0 0 20px #fff, 
+        0 0 10px #fff, 
+        0 0 30px #fff, 
+        0 0 40px #ff00ff, 
+        0 0 70px #ff00ff, 
+        0 0 80px #ff00ff, 
+        0 0 100px #ff00ff, 
+        0 0 150px #ff00ff;
+    box-shadow: 
+        0 0 20px 2px #ff00ff;
 }
 
 /* imports 'Open Sans', sans-serfi from https://fonts.google.com*/
