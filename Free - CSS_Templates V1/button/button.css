@@ -7,23 +7,21 @@ body
 
 .button
 {
-    display: flex;
-    justify-content: center;
-    width: 8em;
-    height: 1.5em;
-    padding: 1em;
+    position: relative;
+    text-decoration: none;
     color: #000;
-    font-weight: bold;
-    font-size: 36px;
-    transition: color 0.4s linear;
+    font-size: 38px;
+    outline: 2px solid #000;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.25;
+    padding-bottom: 0.25em;
+    transition: 0.4s ease-in-out;
 }
 
 .button:hover
 {
-    color: #fff;
-}
-
-a
-{
-    text-decoration: none;
+    color: #000;
+    transform: translate(0px, -8px);
+    box-shadow: 0 0 5px #000, 0 0 10px #000;
 }
